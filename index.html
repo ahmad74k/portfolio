@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">John Doe</div>
+        <button class="mobile-nav-toggle">☰</button>
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h1>Data Analyst & Insights Specialist</h1>
+            <p>Transforming Data into Actionable Intelligence</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Data analyst with 5+ years of experience in transforming complex datasets into strategic business insights. Specialized in statistical analysis, data visualization, and predictive modeling.</p>
+            </div>
+            <div class="skills">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">Tableau</span>
+                <span class="skill-tag">Power BI</span>
+                <span class="skill-tag">Machine Learning</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Featured Projects</h2>
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="dashboard">Dashboards</button>
+            <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            <button class="filter-btn" data-filter="analysis">Analysis</button>
+        </div>
+        <div class="projects-wrapper">
+            <button class="scroll-btn prev-btn">&larr;</button>
+            <div class="projects-grid">
+                <div class="project-card" data-category="dashboard">
+                    <a href="./projects/market-analysis.html" class="project-link">
+                        <img src="./images/market-analysis.jpg" alt="Market Analysis">
+                        <div class="project-content">
+                            <h3>Market Analysis Dashboard</h3>
+                            <p>Interactive dashboard analyzing market trends and consumer behavior patterns.</p>
+                            <div class="project-tags">
+                                <span>Tableau</span>
+                                <span>Data Viz</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="project-card" data-category="ml">
+                    <img src="./images/sales-prediction.jpg" alt="Sales Prediction">
+                    <div class="project-content">
+                        <h3>Predictive Sales Model</h3>
+                        <p>ML model predicting sales trends with 95% accuracy.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>ML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ml">
+                    <img src="./images/sales-prediction.jpg" alt="Sales Prediction">
+                    <div class="project-content">
+                        <h3>Predictive Sales Model</h3>
+                        <p>ML model predicting sales trends with 95% accuracy.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>ML</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+                <div class="project-card" data-category="analysis">
+                    <img src="./images/customer-segmentation.jpg" alt="Customer Segmentation">
+                    <div class="project-content">
+                        <h3>Customer Segmentation</h3>
+                        <p>Advanced clustering analysis for targeted marketing strategies.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="analysis">
+                    <img src="./images/stock.jpg" alt="Customer Segmentation">
+                    <div class="project-content">
+                        <h3>Customer Segmentation</h3>
+                        <p>Advanced clustering analysis for targeted marketing strategies.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="analysis">
+                    <img src="./images/hr_analytics.jpg" alt="Customer Segmentation">
+                    <div class="project-content">
+                        <h3>Customer Segmentation</h3>
+                        <p>Advanced clustering analysis for targeted marketing strategies.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="analysis">
+                    <img src="./images/hr_analytics.jpg" alt="Customer Segmentation">
+                    <div class="project-content">
+                        <h3>Customer Segmentation</h3>
+                        <p>Advanced clustering analysis for targeted marketing strategies.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Analytics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="scroll-btn next-btn">&rarr;</button>
+        </div>
+        <div class="scroll-indicators">
+            <!-- Dots will be added dynamically -->
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">📊</div>
+                <h3>Data Analysis</h3>
+                <p>Comprehensive data analysis and interpretation to uncover valuable insights for your business decisions.</p>
+                <ul class="service-features">
+                    <li>Statistical Analysis</li>
+                    <li>Trend Identification</li>
+                    <li>Report Generation</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">📈</div>
+                <h3>Data Visualization</h3>
+                <p>Create compelling visual representations of data to communicate insights effectively.</p>
+                <ul class="service-features">
+                    <li>Interactive Dashboards</li>
+                    <li>Custom Charts</li>
+                    <li>Real-time Monitoring</li>
+                </ul>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🤖</div>
+                <h3>Predictive Modeling</h3>
+                <p>Advanced machine learning models to forecast trends and make data-driven predictions.</p>
+                <ul class="service-features">
+                    <li>ML Model Development</li>
+                    <li>Forecasting</li>
+                    <li>Pattern Recognition</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <a href="mailto:contact@example.com" class="contact-button">Email Me</a>
+            <a href="https://linkedin.com" class="contact-button">LinkedIn</a>
+            <a href="https://github.com" class="contact-button">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 John Doe | Data Analyst Portfolio</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
